@@ -59,9 +59,9 @@ ol {
 .result__video-container {
   position: relative;
   min-inline-size: 711px;
-  padding-block-start: 78px;
+  margin-block-start: 70px;
   overflow: hidden;
-  padding-block-end: 5px;
+  margin-block-end: 16px;
 }
 
 .result__video {
@@ -118,7 +118,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   background-color: transparent;
   min-inline-size: 225px;
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-bottom: 1px solid #fff;
   font-weight: 400;
   border-left: none;
@@ -195,9 +195,9 @@ ol {
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   background-color: transparent;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 21px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
 }
 
 .search-form__submit-button {
